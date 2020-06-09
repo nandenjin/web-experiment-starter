@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const package = require('./package.json')
 
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
@@ -26,7 +27,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: '@nandenjin/W200528',
+      title: package.name,
       scriptLoading: 'defer',
     }),
   ],
