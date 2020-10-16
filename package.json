@@ -12,7 +12,7 @@
     "lint:style": "stylelint ./src/**/*.scss",
     "build": "cross-env NODE_ENV=production webpack",
     "start": "run-s dev",
-    "dev": "webpack-dev-server"
+    "dev": "webpack serve --mode development"
   },
   "dependencies": {},
   "devDependencies": {
