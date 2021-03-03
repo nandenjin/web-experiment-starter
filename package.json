@@ -10,6 +10,7 @@
     "lint": "run-s lint:*",
     "lint:script": "eslint --ext ts,js .",
     "lint:style": "stylelint ./src/**/*.scss",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,sass,scss,json,yml,yaml,md}\"",
     "build": "cross-env NODE_ENV=production webpack",
     "start": "run-s dev",
     "dev": "webpack serve --mode development"

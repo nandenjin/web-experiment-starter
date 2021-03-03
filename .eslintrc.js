@@ -9,17 +9,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
-  plugins: ['prettier'],
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        semi: false,
-        allowParens: 'avoid',
-        trailingComma: 'es5',
-      },
-    ],
   },
 }
