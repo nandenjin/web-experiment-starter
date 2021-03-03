@@ -9,18 +9,18 @@
 
 ## Features
 
-* Build system with Webpack
-* Live reloading with `webpack-dev-server`
-* Default supports for TypeScript, SASS, SCSS
-* Built-in ESLint and Prettier
-* Easy to customize
-* Automated publishment for GitHub Pages **(Be careful when you use this for private repo)**
+- Build system with Webpack
+- Live reloading with `webpack-dev-server`
+- Default supports for TypeScript, SASS, SCSS
+- Built-in ESLint and Prettier
+- Easy to customize
+- Automated publishment for GitHub Pages **(Be careful when you use this for private repo)**
 
 Maintained with monthly dependencies update by [Dependabot](https://help.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically)
 
 ## Get started
 
-Just copy this repository. 
+Just copy this repository.
 
 You can create a new repo based on this by clicking **"Use this template"** button on the original repo page on GitHub.
 
