@@ -11,9 +11,9 @@
     "lint:script": "eslint --ext ts,js .",
     "lint:style": "stylelint ./src/**/*.scss",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,sass,scss,json,yml,yaml,md}\"",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "vite build",
     "start": "run-s dev",
-    "dev": "webpack serve --mode development"
+    "dev": "vite"
   },
   "dependencies": {},
   "devDependencies": {
@@ -36,6 +36,7 @@
     "stylelint-config-standard": "^22.0.0",
     "ts-loader": "^9.2.5",
     "typescript": "^4.3.5",
+    "vite": "^2.4.4",
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
