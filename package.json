@@ -11,34 +11,26 @@
     "lint:script": "eslint --ext ts,js .",
     "lint:style": "stylelint ./src/**/*.scss",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,sass,scss,json,yml,yaml,md}\"",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "vite build",
     "start": "run-s dev",
-    "dev": "webpack serve --mode development"
+    "dev": "vite"
   },
   "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
-    "cross-env": "^7.0.3",
-    "css-loader": "^6.2.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "html-webpack-plugin": "^5.3.2",
     "husky": "=7",
     "lint-staged": ">=11",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.2",
     "sass": "^1.37.5",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.2.1",
     "stylelint": "^13.13.1",
     "stylelint-config-recess-order": "^2.4.0",
     "stylelint-config-standard": "^22.0.0",
-    "ts-loader": "^9.2.5",
     "typescript": "^4.3.5",
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "vite": "^2.4.4"
   },
   "husky": {
     "hooks": {
