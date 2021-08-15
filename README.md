@@ -8,8 +8,7 @@
 
 ## Features
 
-- Build system with Webpack
-- Live reloading with `webpack-dev-server`
+- Build system with [Vite.js](https://vitejs.dev/)
 - Default supports for TypeScript, SASS, SCSS
 - Built-in ESLint and Prettier
 - Easy to customize
